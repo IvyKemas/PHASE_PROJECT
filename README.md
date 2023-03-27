@@ -1,66 +1,88 @@
 # Phase 2 Project
 
-Another module down--you're almost half way there!
+## Ivy's project
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-campus/master/halfway-there.gif)
+## Business Problem
+Maison Real Estate Agency have decided to invest in the King County Area in the USA however, they want to be certain of the best ways to note where to invest their Capital in.
 
-All that remains in Phase 2 is to put our newfound data science skills to use with a large project! This project should take 20 to 30 hours to complete.
+## Business understanding
+Maison Real Estate Agency wants to invest in some areas of King County Area. The stakeholders of Maison Real Estate Agency want me to conduct an Analysis on the provided data, In order to provide accurate recommendations on the ways to carry out their investments in order to maximise their profits.
 
-## Project Overview
+From the following analysis you may note that all tests condcted were conducted using price as the dependent variable. This is because it was the primary objective that Maison Real Estate Agency realizes positive results for their investments.
 
-For this project, you will use regression modeling to analyze house sales in a northwestern county.
+### What questions were asked during the analytics process?
+* Do prices vary according to zipcode, if so which zipcodes have higher prices distribution?
+* Is the a relationship between the prices and the square feet of the house?
+* Is there a relationship between the number of bedrooms and the prices?
+* Is there a relationship between the number of floors and the prices?
+* Is there a relationship between the number of Bathrooms and the prices?
 
-### The Data
+## In order to coduct the analysis , the following steps were implemented
+* Data Mining
+* Data Cleaning
+* Data Exploration
+* Feature Engineering
+* Predictive Modelling
+* Data Visualization
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this repo. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you ignore some or all of the following features:
+### Data Mining 
+The following csv files were extracted for this analysis
+kc_house_data.csv-The analysis was to be conducted here
+column_names.md- This provvided abetter understanding of the(kc_house_data.csv)
 
-* date
-* view
-* sqft_above
-* sqft_basement
-* yr_renovated
-* zipcode
-* lat
-* long
-* sqft_living15
-* sqft_lot15
+### Data Cleaning
+The following unclean data was dealt with using appropriate methods
+* Missing Data
+* Wrong Data Types
 
-### Business Problem
+* **The unclean data was deale with in the following ways
 
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
+* **Missing data**
+* Creation of separate Categories for the missing Data and filling the values -This was to avoid messing with the data as I wasn't sure what would have been the reason this data was missing.
+![cleaning1]("C:\Users\ADMIN\Desktop\pro\cleaning1.png")
 
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
+* Using the median to fill in the missing values-
+![cleaning3]("C:\Users\ADMIN\Desktop\pro\cleaning3.png")
 
-## Deliverables
+* Using the mode to fill in the missing values-
+![cleaning4]("C:\Users\ADMIN\Desktop\pro\cleaning4.png")
+* **Wrong Data Types**
+Here I assigned the correct data type
+![cleaning2]("C:\Users\ADMIN\Desktop\pro\cleaning2.png")
 
-There are three deliverables for this project:
+### Data Exploration
+* Here I did exploratory Data Analysis to understand some relationships and some descriptive statistics to better understand the variables.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+**Descriptive Statistics**
+![cleaning5]("C:\Users\ADMIN\Desktop\pro\cleaning5.png")
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+**Exploraty Data Analysis**
+![cleaning6]("C:\Users\ADMIN\Desktop\pro\cleaning7.png")
 
-### Key Points
+### Feature Engineering
 
-* **Your deliverables should explicitly address each step of the data science process.** Refer to [the Data Science Process lesson](https://github.com/learn-co-curriculum/dsc-data-science-processes) from Topic 19 for more information about process models you can use.
+### Predictive Modelling
+Here I used trained models to try predict
+![cleaning8]("C:\Users\ADMIN\Desktop\pro\cleaning8.png")
 
-* **Your Jupyter Notebook should demonstrate an iterative approach to modeling.** This means that you begin with a basic model, evaluate it, and then provide justification for and proceed to a new model. After you finish refining your models, you should provide 1-3 paragraphs discussing your final model - this should include interpreting at least 3 important parameter estimates or statistics.
+### Data Visualization
+Here I finally created visualizations from the trained model
 
-* **Based on the results of your models, your notebook and presentation should discuss at least two features that have strong relationships with housing prices.**
+![cleaning9]("C:\Users\ADMIN\Desktop\pro\cleaning9.png")
 
-## Getting Started
+## Action 
+- After completing the data science process I came up with appropriate recommendations to answer the Business Problem
+- The include:-
+* Invest in houses with higher number of bathrooms.
+* Invest in houses with higher number of floors.
+* Invest in houses with a bedroom range of 6-8
+* Invest in houses with a higher number of square feet
+* Invest in houses in the recommended zipcodes
 
-Start on this project by forking and cloning [this project repository](https://github.com/learn-co-curriculum/dsc-phase-2-project) to get a local copy of the dataset.
-
-We recommend structuring your project repository similar to the structure in [the Phase 1 Project Template](https://github.com/learn-co-curriculum/dsc-project-template). You can do this either by creating a new fork of that repository to work in or by building a new repository from scratch that mimics that structure.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
 
 ## Summary
+To propell the success of Maison Real Estate Agency as they begin to make investments , Data from one extracted, The data sets then underwent cleaning then Exploration . After wrangling the Data was used to create various statistical models and visualizations in order to establish appropriate actions to be undertook by Maison Real Estate Agency as the begin making investments. Various actions were suggested and business recommendations were yielded in the process.
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+## Conclusion
+The goal of this project was to provide sound recommendations that Maison Real Estate Agency should follow when making investments in housing. Of course they would want to realise profits , that is why it was necessary to conduct the analysis to give great advice when it came to their investment process. From the analysis we have noted that Yes the data needed some extra research in order to understand it better, It was also necessary to prepare the data adequately in order to get the best out of the results. After building a model and using it to predict, with full confidence I can recommend that they Maison Real Estate Agency should, carry out their investments in the mentioned zip codes as they attract the highest prices, they should also invest in houses with higher number of bathrooms, on top of that they should invest in houses with a higher number in square feet to maximise their profits and finally they should aim for houses with about 7 bedrooms, not lesser than 5 or greater than 8 in order to realise maximum profits.
