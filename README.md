@@ -90,7 +90,7 @@ Here I finally created visualizations from the trained model
 ## Action 
 
 - After completing the data science process I came up with appropriate recommendations to answer the Business Problem
-- The include:-
+- They include:-
 * Invest in houses with higher number of bathrooms.
 * Invest in houses with higher number of floors.
 * Invest in houses with a bedroom range of 6-8
