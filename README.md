@@ -40,7 +40,7 @@ The following unclean data was dealt with using appropriate methods
 
 * **Missing data**
 * Creation of separate Categories for the missing Data and filling the values -This was to avoid messing with the data as I wasn't sure what would have been the reason this data was missing.
-![cleaning1]("C:\Users\ADMIN\Desktop\pro\cleaning1.png")
+<img width="815" alt="cleaning1" src="https://user-images.githubusercontent.com/122665283/228152463-bd589471-5b5b-41f0-9b33-91e468cb825c.png">
 
 * Using the median to fill in the missing values-
 ![cleaning3]("C:\Users\ADMIN\Desktop\pro\cleaning3.png")
