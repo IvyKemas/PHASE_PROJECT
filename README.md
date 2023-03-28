@@ -6,13 +6,13 @@
 Maison Real Estate Agency have decided to invest in the King County Area in the USA however, they want to be certain of the best ways to note where to invest their Capital in.
 
 ## Business understanding
-Maison Real Estate Agency wants to invest in some areas of King County Area. The stakeholders of Maison Real Estate Agency want me to conduct an Analysis on the provided data, In order to provide accurate recommendations on the ways to carry out their investments in order to maximise their profits.
+Maison Real Estate Agency wants to invest in some areas of King County Area. The stakeholders of Maison Real Estate Agency want me to conduct an Analysis on the provided data, In order to provide accurate recommendations on the ways to carry out their investments therefore maximising their profits.
 
 From the following analysis you may note that all tests condcted were conducted using price as the dependent variable. This is because it was the primary objective that Maison Real Estate Agency realizes positive results for their investments.
 
 ### What questions were asked during the analytics process?
 * Do prices vary according to zipcode, if so which zipcodes have higher prices distribution?
-* Is the a relationship between the prices and the square feet of the house?
+* Is there a relationship between the prices and the square feet of the house?
 * Is there a relationship between the number of bedrooms and the prices?
 * Is there a relationship between the number of floors and the prices?
 * Is there a relationship between the number of Bathrooms and the prices?
@@ -36,7 +36,7 @@ The following unclean data was dealt with using appropriate methods
 * Missing Data
 * Wrong Data Types
 
-* **The unclean data was deale with in the following ways
+* **The unclean data was dealt with in the following ways**
 
 * **Missing data**
 * Creation of separate Categories for the missing Data and filling the values -This was to avoid messing with the data as I wasn't sure what would have been the reason this data was missing.
